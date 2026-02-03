@@ -6,6 +6,8 @@ vector<int> Dijkstra(vector<vector<pair<int,int>>&adj , int src){
     priority_queue<pair<int,int>,vector<pair<int,int>>, greater<pair<int,int>>> pq;
     dist[src] = 0;
     pq.emplace(0,src);
+    while(!pq.empty()){
+        auto top 
     
 
 }
